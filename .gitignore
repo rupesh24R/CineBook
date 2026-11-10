@@ -1,0 +1,53 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+
+# Production build outputs
+dist/
+frontend/dist/
+build/
+backend/build/
+target/
+backend/target/
+bin/
+
+# Java compilation artifacts
+*.class
+*.jar
+*.war
+
+# Gradle & Maven
+.gradle/
+backend/.gradle/
+.mvn/
+*.ipr
+*.iws
+
+# IDE and Editors
+.idea/
+*.iml
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Environment & credentials (keep templates only)
+.env
+.env.local
+.env.*.local
+backend/.env
+frontend/.env
+*.secret
+
+# Logs & temp files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.system_generated/
+
+# OS metadata
+.DS_Store
+Thumbs.db
